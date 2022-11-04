@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client'
 import { addDays, formatISO } from 'date-fns'
+
 const prisma = new PrismaClient()
 
 export const list = async ctx => {
